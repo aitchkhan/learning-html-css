@@ -1,0 +1,12 @@
+
+.container {
+    margin: auto;
+    width: 500px;
+}
+
+.quote {
+    border: 2px solid black;
+    margin: 10px;
+    margin-left: 0px;
+    text-align: center;
+}

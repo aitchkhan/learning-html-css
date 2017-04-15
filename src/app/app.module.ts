@@ -7,9 +7,13 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { IntroComponent } from './intro/intro.component';
+import { HomeComponent } from './home/home.component';
 
 const appRoutes: Routes = [
+  { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'intro', component: IntroComponent },
   { path: '', component: AppComponent },
   { path: '**', component: PageNotFoundComponent }
 ]
@@ -18,7 +22,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     AboutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    IntroComponent,
+    HomeComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),

@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+.about-selfie {
+    height: 300px;
+    width: 300px;
+}
+
+.container {
+    display: none;
+    margin: auto;
+    width: 500px;
+    background: gray;
+    text-align: center;
+}
+
+.first-of-type li:nth-child(3) {
+    color: red;
+}
