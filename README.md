@@ -1,7 +1,7 @@
 # LearnHtmlCss
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
-I am following [Envator tuts+](https://www.youtube.com/watch?v=f62FD8t4aPU&list=PLgGbWId6zgaWZkPFI4Sc9QXDmmOWa1v5F&index=17) tutorials and I have divided them in different components. Tracking them is difficult. 
+I am following [Envato tuts+](https://www.youtube.com/watch?v=f62FD8t4aPU&list=PLgGbWId6zgaWZkPFI4Sc9QXDmmOWa1v5F&index=17) tutorials and I have divided them in different components. Tracking them is difficult. 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
