@@ -16,7 +16,7 @@ const appRoutes: Routes = [
   { path: 'intro', component: IntroComponent },
   { path: '', component: AppComponent },
   { path: '**', component: PageNotFoundComponent }
-]
+];
 
 @NgModule({
   declarations: [

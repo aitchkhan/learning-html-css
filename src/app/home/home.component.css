@@ -26,6 +26,42 @@ aside, .content {
     height: 600px;
 }
 
+ul a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+ul a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+li {
+    display: list-item;
+    padding-right: 10px;
+}
+
 footer {
     clear: both;
+}
+
+form ul {
+    padding-left: 0px;
+}
+
+form li {
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 400px;
+    height: 200px;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    padding-bottom: 10px;
 }
